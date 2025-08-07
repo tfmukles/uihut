@@ -4,7 +4,7 @@
     "public": "public"
   },
   "content": {
-    "root": "public/images"
+    "root": "src/content"
   },
   "themeConfig": [],
   "arrangement": [],
