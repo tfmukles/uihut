@@ -9,7 +9,7 @@ content: >-
   Best for Professionals like UI/UX designers, Web developer, <br
   class='max-lg:hidden' /> Freelancers and agencies
 announcement: All-Access Pass
-meta_title: UIHut Pricing
+meta_title: This meta titlle.
 image: /images/blog/Best_Examples_of_User_Needs.webp
 draft: false
 price_cards: null
@@ -52,4 +52,14 @@ lifetime_price_cards:
         text: Use on personal & commercial projects
       - active: true
         text: Access to all products
+  - variant: ''
+    package_name: ''
+    product_id: ''
+    regular_price: ''
+    discount_price: ''
+    discount_rate: ''
+    duration: ''
+    plan_description: ''
+    list:
+      - text: ''
 ---
