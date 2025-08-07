@@ -10,7 +10,7 @@ content: >-
   class='max-lg:hidden' /> Freelancers and agencies
 announcement: All-Access Pass
 meta_title: UIHut Pricing
-image: /images/abc.png
+image: /images/blog/Best_Examples_of_User_Needs.webp
 draft: false
 price_cards: null
 lifetime_price_cards:
