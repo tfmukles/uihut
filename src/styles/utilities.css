@@ -1,0 +1,144 @@
+@utility container {
+  @apply 3xl:max-w-[1600px] 4xl:max-w-[1920px] 5xl:max-w-[2560px] mx-auto px-4 md:px-5 xl:max-w-[1280px] 2xl:max-w-[1370px];
+}
+
+@utility container-fluid {
+  @apply max-w-full px-4 md:px-5;
+}
+
+@utility container-md {
+  @apply 3xl:max-w-[1440px] 4xl:max-w-[1800px] 5xl:max-w-[2240px] mx-auto px-4 md:px-5 xl:max-w-[1180px] 2xl:max-w-[1272px];
+}
+
+@utility btn-gradient {
+  @apply from-primary to-secondary bg-gradient-to-r from-[70%];
+}
+
+@utility outline-gradient {
+  @apply bg-gradient-to-l from-[#FFDE67]/70 from-0% via-[#FF808D]/70 via-30% to-[#AC5EFA]/70 to-100%;
+}
+
+@utility button-shadow {
+  @apply shadow-[0px_1px_0px_0px_#FFFFFF66_inset];
+}
+
+@utility glow {
+  @apply outline-gradient pointer-events-none absolute -inset-[2px] rounded-lg bg-gradient-to-r opacity-0 blur-[12px] transition duration-300 ease-in-out;
+}
+
+@utility animated-glow {
+  @apply glow animate-glow direction-alternate-reverse repeat-infinite -inset-[1px] opacity-30 blur-[12px] ease-in-out;
+}
+
+@utility clip-gradient {
+  @apply bg-clip-text text-transparent;
+}
+
+@utility gradient-text {
+  @apply clip-gradient bg-gradient-to-r from-[#b9bfda] from-[40%] to-[#7882ab] to-[90%];
+}
+
+@utility blob {
+  background: linear-gradient(
+    269.99deg,
+    rgba(255, 222, 103, 0.4) 18.45%,
+    rgba(255, 128, 141, 0.4) 59.97%,
+    rgba(172, 94, 250, 0.4) 89.21%
+  );
+}
+
+@utility moving-border {
+  background: radial-gradient(
+    circle,
+    rgba(255, 98, 138, 1) 14%,
+    rgba(161, 68, 255, 0.8) 51%,
+    rgba(255, 98, 138, 0) 100%
+  );
+}
+
+@utility bg-gradient-gray {
+  @apply bg-gradient-to-b from-white/[3%] to-white/0;
+}
+
+@utility main-border-gradient {
+  @apply bg-gradient-to-b from-[#EDECF4]/[6%] from-[0%] via-[#EDECF4]/[6%] via-[80%] to-white/0 to-[100%];
+}
+
+@utility card-bg {
+  @apply from-dark via-background/[60%] to-background;
+}
+
+@utility input-gradient {
+  @apply bg-linear-180 from-[#070A15] to-[#1A1F34];
+}
+
+@utility bg-input-dark {
+  @apply bg-gradient-to-b from-[#070A15] to-[#1A1F34];
+}
+
+@utility dark-gradient-bg {
+  @apply from-dark via-background/[60%] to-background bg-transparent bg-gradient-to-b from-[0%] via-[60%] to-[100%];
+}
+
+@utility bg-divider {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 5.9%,
+    rgba(237, 236, 244, 0.08) 14.4%,
+    rgba(255, 255, 255, 0.08) 50.11%,
+    rgba(237, 236, 244, 0.08) 85.56%,
+    rgba(255, 255, 255, 0) 94.33%
+  );
+}
+
+@utility bg-divider-vertical {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 5.9%,
+    rgba(237, 236, 244, 0.08) 14.4%,
+    rgba(255, 255, 255, 0.08) 50.11%,
+    rgba(237, 236, 244, 0.08) 85.56%,
+    rgba(255, 255, 255, 0) 94.33%
+  );
+}
+
+@utility bg-divider-lg {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0.11%,
+    rgba(237, 236, 244, 0.06) 3.76%,
+    rgba(237, 236, 244, 0.06) 50.11%,
+    rgba(237, 236, 244, 0.06) 96.28%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+@utility bg-divider-lg-vertical {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0.11%,
+    rgba(237, 236, 244, 0.06) 3.76%,
+    rgba(237, 236, 244, 0.06) 50.11%,
+    rgba(237, 236, 244, 0.06) 96.28%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+@utility conic-gradient {
+  background-image: conic-gradient(
+    from 45deg at 50% 50%,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #3a3f514d,
+    #ff628a,
+    #a144ff,
+    #3a3f514d
+  );
+}

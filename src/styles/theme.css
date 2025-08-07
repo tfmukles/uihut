@@ -1,0 +1,45 @@
+/* default colors */
+:root {
+  --body-color: 50 50% 98%;
+  --primary-color: 270 94% 67%;
+  --secondary-color: 333 71% 69%;
+  --border-color: 44 22% 90%;
+  --white-color: 0 0% 98%;
+  --light-color: 0 0% 0%;
+  --dark-color: 0 0% 75%;
+  --accent-color: 354 100% 75%;
+  --muted-color: 255 100% 100%;
+  --danger-color: 0 84.2% 60.2%;
+  --success-color: 150 82% 36%;
+
+  --text-primary-color: 0 0% 100%;
+  --text-secondary-color: 0 0% 100%;
+  --text-muted-color: 229 15% 41%;
+
+  --text-default-color: 228 22% 13%;
+  --text-light-color: 216 20% 46%;
+  --text-dark-color: 228 40% 10%;
+}
+
+/* darkmode colors */
+.dark {
+  --body-color: 228 50% 8%;
+  --primary-color: 270 94% 67%;
+  --secondary-color: 333 71% 69%;
+  --border-color: 232 20% 21%;
+  --white-color: 0 0% 98%;
+  --light-color: 0 0% 96.1%;
+  --dark-color: 230 38% 12%;
+  --accent-color: 354 100% 75%;
+  --muted-color: 228 40% 10%;
+  --danger-color: 0 84.2% 60.2%;
+  --success-color: 150 82% 36%;
+
+  --text-primary-color: 0 0% 100%;
+  --text-secondary-color: 0 0% 100%;
+  --text-muted-color: 229 15% 41%;
+
+  --text-default-color: 227 31% 79%;
+  --text-light-color: 216 19% 61%;
+  --text-dark-color: 0 2% 90%;
+}

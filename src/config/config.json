@@ -1,0 +1,45 @@
+{
+  "site": {
+    "title": "26,000+ UI Design Resources, Web Template, Illustration & Icon - UIHut",
+    "base_url": "https://uihut.com",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.svg",
+    "logo_darkmode": "/images/logo-darkmode.svg",
+    "logo_width": "125",
+    "logo_height": "30",
+    "logo_text": "Uihut"
+  },
+  "settings": {
+    "theme_switcher": false,
+    "default_theme": "dark",
+    "pagination": 2,
+    "summary_length": 200,
+    "blog_folder": "blog"
+  },
+  "announcement": {
+    "enable": true,
+    "name": "UIHut Mini Pack",
+    "content": "🔥🔥 Limited Time Offer !! Download any 10 Premium Designs Just for **$17** 👉 <a href='https://uihut.com/mini-pricing?utm_source=uihut&utm_medium=announcement&utm_campaign=minihut_announcement' target='_blank'>Grab It Now!</a>"
+  },
+  "deal_announcement": {
+    "enable": false,
+    "end_date": "2025-02-27T04:00:00.000Z"
+  },
+  "params": {
+    "tag_manager_id": "GTM-5VZW4BX",
+    "form_submit_email": "https://formsubmit.co/ajax/uihut@themefisher.thrivedesk.email",
+    "copyright": "&copy; 2025 uihut.com. All rights reserved."
+  },
+  "metadata": {
+    "meta_author": "uihut",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "UIHut offers 26,000+ UI design resources. Download Web Templates, Web UI, App UI, UI Kits, 3D Assets, Illustrations, and Icons for your next design project."
+  },
+  "posthog": {
+    "enable": true,
+    "disabled_countries": ["India"]
+  },
+  "draft": false
+}

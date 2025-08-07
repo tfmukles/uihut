@@ -1,0 +1,61 @@
+{
+  "file": "src/content/blog/service-disruption-due-to-internet-shutdown.md",
+  "name": "blog",
+  "fileType": "md",
+  "fmType": "yaml",
+  "template": [
+    {
+      "label": "Title",
+      "name": "title",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Meta Title",
+      "name": "meta_title",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Date",
+      "name": "date",
+      "type": "Date",
+      "value": ""
+    },
+    {
+      "label": "Last Update",
+      "name": "last_update",
+      "type": "Date",
+      "value": ""
+    },
+    {
+      "label": "Image",
+      "name": "image",
+      "type": "media",
+      "value": ""
+    },
+    {
+      "label": "Author",
+      "name": "author",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Description",
+      "name": "description",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "label": "Categories",
+      "name": "categories",
+      "type": "Array"
+    },
+    {
+      "label": "Draft",
+      "name": "draft",
+      "type": "boolean",
+      "value": ""
+    }
+  ]
+}

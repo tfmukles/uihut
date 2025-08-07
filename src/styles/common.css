@@ -1,0 +1,230 @@
+.animated-icon {
+  --startAngle: 0;
+  --endAngle: 0;
+
+  & > span {
+    @apply bg-gradient-to-r from-[#1A1F34] from-[0%] to-[#0A0E1E] to-[100%];
+    box-shadow:
+      inset 0px -6px 0px #070b1b,
+      inset 0px -7px 0px #1a1f34;
+  }
+
+  &::after,
+  &::before {
+    @apply absolute -inset-[20px] rounded-[22px] content-[''];
+  }
+
+  &::before {
+    @apply conic-gradient;
+    animation: 3s spin linear infinite;
+  }
+
+  &::after {
+    @apply bg-background inset-[1px];
+  }
+
+  img,
+  svg {
+    @apply h-full w-full;
+  }
+}
+
+.boxed-icon {
+  --startAngle: 0;
+  --endAngle: 0;
+
+  & > span {
+    @apply bg-gradient-to-r from-[#1A1F34] from-[0%] to-[#0A0E1E] to-[100%];
+    box-shadow:
+      inset 0px -6px 0px #070b1b,
+      inset 0px -7px 0px #1a1f34;
+  }
+
+  &::after,
+  &::before {
+    @apply absolute -inset-[200px] rounded-[22px] content-[''];
+  }
+
+  img,
+  svg {
+    @apply h-full w-full;
+  }
+}
+
+.form-input.error {
+  @apply border-destructive;
+}
+
+/* content style */
+.content {
+  @apply prose max-w-none;
+  @apply prose-headings:gradient-text prose-headings:mb-[.4em] prose-headings:mt-[.6em];
+  @apply prose-h1:text-h1-sm md:prose-h2:text-h2;
+  @apply prose-h2:text-h2-sm md:prose-h3:text-h3;
+  @apply prose-h3:text-h3-sm md:prose-h4:text-h4;
+  @apply prose-h4:text-h4-sm md:prose-h5:text-h5;
+  @apply prose-img:max-w-full prose-img:rounded;
+  @apply prose-hr:border-border;
+  @apply prose-a:text-accent prose-a:underline;
+  @apply prose-p:text-text-light;
+  @apply prose-strong:text-text-light;
+  @apply prose-li:text-text-light;
+  @apply prose-blockquote:input-gradient prose-blockquote:m-0 prose-blockquote:rounded-2xl prose-blockquote:border prose-blockquote:border-border prose-blockquote:px-8 prose-blockquote:py-8 prose-blockquote:text-base prose-blockquote:not-italic prose-blockquote:text-text-light;
+}
+
+/* cookie box */
+.cookie-box {
+  @apply bg-popover fixed bottom-3 left-3 z-50 mr-5 block w-[calc(100%-1.5rem)] max-w-[450px] items-center justify-between rounded px-5 py-4 shadow md:bottom-5 md:left-5 md:flex;
+}
+.cookie-box-closer {
+  @apply btn-gradient button-shadow text-primary-foreground hover:bg-primary/90 relative h-8 rounded-md px-[22px];
+}
+
+/* bookmark box */
+.bookmark-box {
+  @apply bg-popover fixed bottom-5 left-5 z-50 mr-5 hidden origin-bottom-left items-center justify-between rounded py-1.5 pr-5 pl-2 shadow transition-[cubic-bezier(0.18_0.89_0.32_1.27)];
+
+  &:hover {
+    .bookmark-box-icon {
+      @apply bg-background;
+    }
+
+    .bookmark-box-text {
+      @apply invisible opacity-0;
+    }
+
+    .bookmark-box-text-hover {
+      @apply visible opacity-100;
+    }
+
+    .bookmark-box-closer {
+      @apply scale-100;
+    }
+  }
+}
+
+.bookmark-box-icon {
+  @apply mr-2.5 flex items-center justify-center rounded px-1.5 py-2;
+}
+
+.bookmark-box-closer {
+  @apply bg-dark absolute -top-2 -right-2 h-5 w-5 scale-0 cursor-pointer rounded-full text-center leading-5 shadow transition;
+}
+
+/* accordion */
+.accordion {
+  @apply border-border bg-muted mb-4 overflow-hidden rounded-xl border;
+}
+
+.accordion-header {
+  @apply gradient-text flex w-full cursor-pointer items-center gap-x-4 px-6 py-8 text-left text-xl font-medium;
+}
+
+.accordion-icon {
+  @apply text-text-light h-[.8em] w-[.8em];
+}
+
+.accordion-content {
+  @apply px-6 pb-8 text-base;
+}
+
+.stretched-link::after {
+  @apply absolute top-0 right-0 bottom-0 left-0 z-10 content-[""];
+}
+
+/* assistant */
+.assistant {
+  @apply bg-dark;
+}
+.assistant-btn {
+  svg {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+}
+
+.assistant-body {
+  @apply overflow-y-auto;
+  @media (max-width: 575px) {
+    width: 100%;
+  }
+
+  @media (max-height: 825px) {
+    max-height: 384px;
+  }
+
+  @media (max-height: 675px) {
+    max-height: 300px;
+  }
+
+  @media (max-height: 525px) {
+    max-height: 250px;
+  }
+
+  @media (max-height: 475px) {
+    max-height: 150px;
+  }
+}
+
+.assistant-users {
+  @apply mb-[18px];
+
+  @media (max-height: 592px) {
+    @apply hidden;
+  }
+
+  img + img {
+    @apply -ml-1.5;
+  }
+}
+
+.announcement-bar {
+  @apply from-secondary to-primary bg-gradient-to-r from-[1%] text-white;
+
+  a {
+    @apply underline;
+  }
+}
+
+/* custom select */
+.custom-select {
+  @apply relative mx-2 inline-block;
+
+  .custom-select-content {
+    @apply scale-y-0;
+  }
+}
+
+.custom-select-trigger {
+  @apply border-border flex min-w-60 items-center rounded-lg border text-left before:rounded-lg after:rounded-lg;
+}
+
+.custom-select-content {
+  @apply border-border bg-background absolute top-[112%] max-h-64 min-w-full origin-top transform overflow-x-hidden overflow-y-auto rounded-lg border shadow transition-transform duration-150;
+}
+
+.custom-select-option {
+  @apply text-text-light hover:bg-popover hover:text-popover-foreground cursor-pointer px-5 py-2 text-left text-nowrap transition;
+}
+.custom-select-option:not(:last-child) {
+  @apply border-border/40 border-b;
+}
+.custom-select-option.active {
+  @apply bg-popover text-popover-foreground;
+}
+
+.custom-select.active {
+  .custom-select-trigger {
+    @apply before:bg-transparent before:opacity-100;
+  }
+  .custom-select-content {
+    @apply z-50 scale-y-100;
+  }
+}
+
+.wave-img {
+  cursor: pointer;
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+}

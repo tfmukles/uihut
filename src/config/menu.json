@@ -1,0 +1,210 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Browse Resources",
+      "url": "/mega",
+      "hasChildren": true,
+      "megaMenu": true,
+      "children": [
+        {
+          "name": "Design Resources",
+          "url": "/designs",
+          "logo": "/images/svgs/figma.svg",
+          "badge": "Browse 16,000+ Design Resources",
+          "group": "resources"
+        },
+        {
+          "name": "Icon Resources",
+          "url": "/icons",
+          "logo": "/images/svgs/uihut.svg",
+          "badge": "Browse 8900+ Icon Resources",
+          "group": "resources"
+        },
+        {
+          "name": "Webflow Resources",
+          "url": "/webflow-templates",
+          "logo": "/images/svgs/webflow.svg",
+          "badge": "Browse 1500+ Webflow Resources",
+          "group": "resources"
+        },
+        {
+          "name": "Designs Figma Plugin",
+          "url": "https://www.figma.com/community/plugin/1401906007073649951",
+          "logo": "/images/svgs/figma.svg",
+          "badge": "Make design 10x faster",
+          "group": "tools"
+        },
+        {
+          "name": "Webflow Chrome Extension",
+          "url": "https://chromewebstore.google.com/detail/flowgiri-webflow-chrome-e/pdfpadfnpoamcfdbmheheaecihhhobbp",
+          "logo": "/images/svgs/webflow.svg",
+          "badge": "Speedup design 10x",
+          "group": "tools"
+        }
+      ]
+    },
+    {
+      "name": "Pricing",
+      "url": "/pricing"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Figma Plugin",
+      "url": "https://www.figma.com/community/plugin/1401906007073649951",
+      "badge": "new"
+    }
+  ],
+  "dashboard": [
+    {
+      "name": "Profile Settings",
+      "url": "/dashboard/profile"
+    },
+    {
+      "name": "Download History",
+      "url": "/dashboard/downloads"
+    },
+    {
+      "name": "Billing Information",
+      "url": "/dashboard/billing"
+    },
+    {
+      "name": "Support Tickets",
+      "url": "/dashboard/tickets"
+    },
+    {
+      "name": "Team Members",
+      "url": "/dashboard/members"
+    },
+    {
+      "name": "Become A Partner",
+      "url": "/dashboard/author"
+    }
+  ],
+  "Design Resources": [
+    {
+      "name": "Free Assets",
+      "url": "/free-assets"
+    },
+    {
+      "name": "3D Illustrations",
+      "url": "/3d-illustrations"
+    },
+    {
+      "name": "Illustrations",
+      "url": "/illustrations"
+    },
+    {
+      "name": "Web App Kits",
+      "url": "/web-apps"
+    },
+    {
+      "name": "Mobile App Kits",
+      "url": "/mobile-apps"
+    },
+    {
+      "name": "Web Templates",
+      "url": "/web-templates"
+    },
+    {
+      "name": "UI Kits",
+      "url": "/ui-kits"
+    },
+    {
+      "name": "Icon Packs",
+      "url": "/icon-packs"
+    }
+  ],
+  "Company": [
+    {
+      "name": "Pricing",
+      "url": "/pricing"
+    },
+    {
+      "name": "B2B License",
+      "url": "/contact"
+    },
+    {
+      "name": "Brand Assets",
+      "url": "/brands"
+    },
+    {
+      "name": "Affiliate Program",
+      "url": "https://uihut.partneroapp.com/"
+    }
+  ],
+  "Help & Support": [
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Terms & Conditions",
+      "url": "/terms-conditions"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    },
+    {
+      "name": "License",
+      "url": "/license"
+    },
+    {
+      "Name": "",
+      "Url": "",
+      "name": "Refund Policy",
+      "url": "/refund-policy"
+    }
+  ],
+  "Tools & Resources": [
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Figma Plugin",
+      "url": "https://www.figma.com/community/plugin/1401906007073649951"
+    },
+    {
+      "name": "Webflow Chrome Extension",
+      "url": "https://chromewebstore.google.com/detail/flowgiri-webflow-chrome-e/pdfpadfnpoamcfdbmheheaecihhhobbp"
+    }
+  ],
+  "Stay Connected": [
+    {
+      "name": "X (Twitter)",
+      "url": "https://x.com/uihutofficial"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/uihutofficial"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/uihutofficial/"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/company/uihutofficial/"
+    },
+    {
+      "name": "Dribbble",
+      "url": "https://dribbble.com/uihut"
+    },
+    {
+      "name": "Behance",
+      "url": "https://www.behance.net/uihut"
+    },
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/uihutofficial/"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# User agent
+User-agent: *
+
+# Allow
+Allow: /
+
+# Disallow
+Disallow: /api/*
+Disallow: /dashboard/*
+
+# Sitemap
+Sitemap: https://uihut.com/sitemap.xml

@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/all-designs",
+      "destination": "/designs",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact",
+      "permanent": true
+    }
+  ]
+}

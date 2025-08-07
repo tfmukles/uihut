@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "*.mdx": "markdown"
+  },
+  "cSpell.words": [
+    "frontmatter",
+    "hookform",
+    "markdownify",
+    "plainify",
+    "Requirement",
+    "Signin",
+    "Signup",
+    "svgs",
+    "titleify",
+    "Uihut",
+    "Webflow"
+  ],
+  "git.ignoreLimitWarning": true
+}
