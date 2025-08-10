@@ -12,6 +12,7 @@ import { TReview } from "@/partials/Review";
 import ReviewsSlider from "@/partials/ReviewsSlider";
 import SeoMeta from "@/partials/SeoMeta";
 import { SubscriptionPlans } from "@/types";
+import { notFound } from "next/navigation";
 import PricingClient from "./_components/PricingClient";
 
 export type TPricingData = {
@@ -31,6 +32,9 @@ const PricingPage = async () => {
   const { frontmatter: pricingData } = getListPage<TPricingData>(
     "mini-pricing/_index.md",
   );
+
+  if (pricingData.draft) return notFound();
+
   const { frontmatter: reviewsData } = getListPage<TReview>(
     "sections/reviews.md",
   );

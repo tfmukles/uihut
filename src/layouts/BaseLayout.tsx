@@ -5,8 +5,7 @@ import Providers from "@/partials/Providers";
 import { SessionProvider } from "next-auth/react";
 import { Toaster } from "sonner";
 import CookieConsent from "./components/CookieConsent";
-import MinihutPopup from "./components/MinihutPopup";
-import MinihutUpgradePopup from "./components/MinihutUpgradePopup";
+import DealPopup from "./components/DealPopup";
 
 export default function BaseLayout({
   children,
@@ -19,8 +18,9 @@ export default function BaseLayout({
         <TwSizeIndicator />
         <Toaster theme="dark" />
         <Header />
-        <MinihutPopup />
-        <MinihutUpgradePopup />
+        <DealPopup />
+        {/* <MinihutPopup />
+        <MinihutUpgradePopup /> */}
         {children}
         <CookieConsent />
         <Footer />

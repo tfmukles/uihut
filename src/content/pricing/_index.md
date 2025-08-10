@@ -65,8 +65,8 @@ price_cards:
     - package_name: Premium Lifetime
       product_id: '857934'
       regular_price: $320
-      discount_price: $129
-      discount_rate: 60%
+      discount_price: $97
+      discount_rate: 70%
       duration: lifetime
       plan_description: Pay once and get lifetime access
       button_text: Get Started

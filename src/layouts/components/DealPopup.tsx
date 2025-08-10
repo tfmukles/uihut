@@ -3,16 +3,15 @@
 import { Dialog, DialogContent, DialogHeader } from "@/components/ui/dialog";
 import { useDialog } from "@/hooks/useDialog";
 import BlurSvg from "@/partials/BlurSvg";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useEffect } from "react";
 import reactUseCookie from "react-use-cookie";
-import { Button } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 import Heading from "./ui/title";
 
 export default function DealPopup() {
-  const router = useRouter();
   const { isOpen, onOpenChange } = useDialog();
-  const [dealAccept, setDealAccept] = reactUseCookie("newYear25", "false");
+  const [dealAccept, setDealAccept] = reactUseCookie("special_offer", "false");
 
   useEffect(() => {
     const timerId = setTimeout(() => {
@@ -44,38 +43,40 @@ export default function DealPopup() {
             variant={"default"}
             className="mb-1 leading-relaxed text-white"
           >
-            Don’t Miss Our New Year Sale!
+            Special Offer!
           </Heading>
           <Heading
-            level={"h1"}
-            className={"aspect-auto font-primary font-bold text-white"}
+            level={"h2"}
+            className={"font-primary aspect-auto font-bold text-white"}
           >
-            <span className="clip-gradient bg-gradient-to-r from-secondary from-[30%] to-primary">
-              Flat 60% OFF!
+            <span className="clip-gradient from-secondary to-primary bg-gradient-to-r from-[30%]">
+              Get Premium Lifetime plan only for $97!
             </span>
           </Heading>
         </DialogHeader>
 
-        <p>
-          Unlock 26,000+ design resources with exclusive deals on UIHut's
-          Lifetime Plans!
-        </p>
+        <p>One-time Payment, Lifetime Access.</p>
         <div>
-          <Button
-            size={"xl"}
-            variant={"basic"}
-            className="mt-5 bg-[#A002FC] text-base text-white focus-visible:ring-0 focus-visible:ring-offset-0"
+          <Link
+            className={buttonVariants({
+              variant: "basic",
+              size: "xl",
+              className:
+                "mt-5 bg-[#A002FC] text-base text-white focus-visible:ring-0 focus-visible:ring-offset-0",
+            })}
+            href={
+              "/pricing?utm_source=website&utm_medium=announcement&utm_campaign=premium_lifetime"
+            }
             onClick={() => {
-              router.push("/deals");
               onOpenChange(false);
             }}
           >
             Grab the Deal
-          </Button>
+          </Link>
         </div>
 
         <BlurSvg
-          className="absolute right-0 top-64 aspect-square -translate-y-1/2 translate-x-1/2 blur-[120px] max-lg:w-[120px]"
+          className="absolute top-64 right-0 aspect-square translate-x-1/2 -translate-y-1/2 blur-[120px] max-lg:w-[120px]"
           width={240}
           height={240}
           viewBox="0 0 240 240"
@@ -87,7 +88,7 @@ export default function DealPopup() {
         />
 
         <BlurSvg
-          className="absolute left-0 top-0 aspect-square -translate-x-1/2 -translate-y-1/2 blur-[120px] max-lg:w-[120px]"
+          className="absolute top-0 left-0 aspect-square -translate-x-1/2 -translate-y-1/2 blur-[120px] max-lg:w-[120px]"
           width={240}
           height={240}
           viewBox="0 0 240 240"

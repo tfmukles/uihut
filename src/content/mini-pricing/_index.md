@@ -1,5 +1,6 @@
 ---
 title: Start Small, Create Big
+draft: true
 description: Find the perfect fit for your design needs and budget.
 
 content: >-
@@ -9,7 +10,6 @@ content: >-
 announcement: Mini Pricing
 meta_title: UIHut Mini Pricing | Download any 10 Premium Designs Just for $17
 image: '/images/og_image_minihut.png'
-draft: false
 noindex: true
 price_cards:
   - package_name: Minihut
