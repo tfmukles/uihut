@@ -34,6 +34,10 @@ When it comes to <A rel="dofollow" href="https://uihut.com/mobile-apps">product 
 
 User research is the key to discovering these insights. Through surveys, interviews, usability tests, and analytics, businesses can gather valuable data about user preferences, frustrations, and behaviors. This research fuels a design process that prioritizes user experience (UX) and ensures long-term customer loyalty.
 
+            console.log({ filepath });
+
+![image.png](/.)
+
 ## How are user needs to be defined?
 
 ![](/images/blog/UH46fWh4DQUam7z8.jpg)
