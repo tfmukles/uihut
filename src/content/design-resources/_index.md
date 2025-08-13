@@ -5,7 +5,7 @@ banner:
     Get professionally designed Web Templates, Web Apps, Mobile UI, 3D,
     Graphics,<br class='max-md:hidden' /> Illustrations, and Icons for your
     projects.
-  announcement: Welcome to Uihut
+  announcement: Welcome to Uihut.
   search_tags:
     - 3D Illustrations
     - Web App
